@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <!--倒计时的自定义属性-->
+    <declare-styleable name="CountDownProgressBar">
+
+        <!--默认圆环-->
+        <attr name="default_ring_color" format="color"/>
+        <attr name="default_ring_width" format="dimension"/>
+        <!--进度条-->
+        <attr name="progress_color" format="color"/>
+        <attr name="progress_width" format="dimension"/>
+
+        <!--时间-->
+        <attr name="count_down_time" format="integer"/>
+
+    </declare-styleable>
+</resources>
